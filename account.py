@@ -12,6 +12,7 @@ class Account():
         '''
         check deposit amount add to original amount
         :param amount: how much money to add
+        conditional as to if amount is less than 0
         '''
         if amount > 0:
             self.account_balance += amount
